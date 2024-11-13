@@ -1,0 +1,24 @@
+spring:
+  artemis:
+    password: simetraehcapa
+    user: artemis
+  data:
+    jpa:
+      repositories:
+        bootstrap-mode: default
+  application:
+    name: order-service
+  zipkin:
+    enabled: false
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+      write-date-timestamps-as-nanoseconds: true
+sfg:
+  brewery:
+    beer-service-host: http://localhost:8080
+server:
+  port: '8081'
+logging:
+  level:
+    guru: debug
