@@ -1,0 +1,6 @@
+sfg:
+  brewery:
+    beer-service-host: http://localhost:8083
+logging:
+  level:
+    guru: debug
